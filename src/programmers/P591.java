@@ -69,8 +69,8 @@ public class P591 {
     public static void main(String[] args) {
 //        int[][] picture = {{2, 1, 2, 0}, {1, 2, 2, 0}, {1, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 3}, {4, 0, 0, 3}};
 //        int[][] picture = {{1, 1, 1, 0}, {1, 1, 1, 0}, {0, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 1}};
-        int[][] picture = {{1, 2, 3, 4}, {4, 3, 2, 1}};
-        int[] result = solution(2, 4, picture);
+        int[][] picture = {{1, 0, 1, 1}};
+        int[] result = solution(1, 4, picture);
 
         System.out.println(result[0] + " / " + result[1]);
     }
